@@ -1,0 +1,17 @@
+body{
+  font: var(--body2-regular);
+  background: var(--bg);
+  color: var(--white);
+  block-size: 100vh;
+  margin: 0;
+
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width:700px){
+  body{
+    display: flex;
+     font: var(--body1-regular);
+  }
+}

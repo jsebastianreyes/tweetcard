@@ -1,0 +1,47 @@
+.button{
+  /* background: red; */
+
+  /* background: rgba(255, 105, 180, 0.329); */
+  border-radius: 50%;
+  background:transparent;
+  border:none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  inline-size: 2.93rem;
+  block-size: 2.93rem;
+  cursor: pointer;
+  /* transition: background 1s; */
+  outline: none;
+}
+
+
+.button.heart-animation i{
+  background: url(../img/Heart-pink.svg);
+  inline-size: 1.31rem;
+  block-size: 1.13rem;
+  background-size: contain;
+  display: inline-block;
+  background-repeat: no-repeat;
+
+}
+
+.button:focus, .button:hover{
+  background:rgba(255, 105, 180, 0.329);
+}
+
+.heart-animation {
+  animation: heart-beat 1s linear;
+  background-size: contain;
+}
+
+
+@keyframes heart-beat {
+ from { background: url(../img/Poins.svg); background-size: 85%; }
+ to { background-position: url(../img/Heart-pink.svg); background-size: 100%; }
+}
+
+
+
+

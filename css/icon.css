@@ -1,0 +1,10 @@
+[class^="icon-"], [class*=" icon-"] {
+  inline-size: 1.31rem;
+  block-size: 1.13rem;
+  background-size: contain;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+.icon-like{
+  background-image: url(../img/Heart.svg);
+}
